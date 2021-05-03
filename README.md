@@ -5,6 +5,8 @@ Once you've added the emoji picker form widget to your form:
 - click on the emoji you want to copy
 - paste it to the field you want
 
+![emoji-picker](https://user-images.githubusercontent.com/53976837/116868116-7c4ef100-ac0e-11eb-88bb-ecd74a632674.gif)
+
 #### Requirements
 To use this plugin, you'll need to create an API key from [Emoji-API.com](https://emoji-api.com)
 and fill your credentials on the backend settings
