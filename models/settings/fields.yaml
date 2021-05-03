@@ -1,0 +1,4 @@
+fields:
+    api_key:
+        label: sunlab.emojipicker::lang.settings.fields.api_key.label
+        span: left

@@ -1,0 +1,28 @@
+<?php if (!$this->previewMode): ?>
+    <div id="<?= $this->getId() ?>"
+         class="emoji-picker"
+         data-control="emoji-picker"
+         data-api-key="<?= $apiKey ?>"
+         data-emoji-template="#<?= $this->getId('emoji-template') ?>"
+         data-no-result-message="<?= Lang::get("sunlab.emojipicker::lang.misc.no-result") ?>"
+         data-loading-message="<?= Lang::get("sunlab.emojipicker::lang.misc.loading") ?>...">
+        <div class="search-input">
+            <input
+                type="text"
+                class="emoji-search-field form-control w-sm m-b"
+                placeholder="<?= Lang::get('sunlab.emojipicker::lang.misc.input_placeholder') ?>"
+                autocomplete="off" />
+
+            <button type="button" class="btn btn-primary search-btn" data-attach-loading><i class="icon-search"></i></button>
+        </div>
+        <div class="emoji-result-field"></div>
+    </div>
+
+    <!-- Template to display search results -->
+    <script type="text/template" id="<?= $this->getId('emoji-template') ?>">
+        <i id="emoji-block-{{ id }}" class="emoji icon-2x" title="{{ emoji.unicodeName }}">
+            {{ emoji.character }}
+        </i>
+    </script>
+
+<?php endif ?>

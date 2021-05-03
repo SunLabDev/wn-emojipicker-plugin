@@ -1,0 +1,26 @@
+{
+    "name": "sunlab/wn-emojipicker-plugin",
+    "type": "winter-plugin",
+    "description": "An Emoji Picker form widget",
+    "homepage": "https://github.com/sunlabdev/wn-emojipicker-plugin",
+    "keywords": ["winter cms", "winter", "plugin", "emoji"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain 'Maz' B",
+            "email": "romainmazb@gmail.com",
+            "role": "Original Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sunlabdev/wn-emojipicker-plugin/issues",
+        "source": "https://github.com/sunlabdev/wn-emojipicker-plugin"
+    },
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "emojipicker"
+    }
+}

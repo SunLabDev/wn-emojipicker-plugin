@@ -1,0 +1,29 @@
+.emoji-picker .search-input {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.emoji-picker .emoji-search-field {
+    flex-grow: 1;
+    padding:6px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.emoji-picker .btn {
+    height: 38px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.emoji-result-field {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emoji-result-field .emoji {
+    cursor: pointer;
+    margin: 2px;
+}
+
