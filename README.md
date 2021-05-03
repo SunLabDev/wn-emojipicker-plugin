@@ -11,6 +11,10 @@ Once you've added the emoji picker form widget to your form:
 To use this plugin, you'll need to create an API key from [Emoji-API.com](https://emoji-api.com)
 and fill your credentials on the backend settings
 
+#### Installation
+
+  composer require sunlab/wn-emojipicker-plugin
+
 #### How to use
 When you want to display the widget, just use it in your fields.yaml file.  
 Because this field is not intended to receive or return any value,
@@ -22,5 +26,3 @@ form:
             label: Emoji Picker
             type: emojipicker
 ```
-
-
